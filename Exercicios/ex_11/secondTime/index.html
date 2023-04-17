@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+
+<style>
+
+
+</style>
+<body>
+
+    <h1>Welcome to my web site</h1>
+    
+    <h2>About me</h2>
+    <p>My name is Jean, I'm a <strong>web developer</strong></p>
+
+    <h2>Tecnologies</h2>
+    <ol type="i">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Sass</li>
+        <li>Bootstrap</li>
+        <li>JavaScript</li>
+        <li>ReactJS</li>
+    </ol>
+
+    <p>Clique <a href="contato.html" target="_self" rel="next">aqui</a> para conversar comigo</p>
+
+    <br>
+
+    <picture>
+        <source media="(max-width: 727px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1027px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+
+
+  <audio controls loop>
+
+  <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+  <source src="midia/guanacast-33.ogg" type="audio/ogg">
+  <source src="midia/guanacast-33.wav" type="audio/wav">
+  <p>Infelizmente seu navegador não consegue reproduzir o áudio</p>
+  <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo</a>
+
+  <source src="" type="audio/">
+
+  </audio>
+
+  <audio id="player" src="midia/memoryofjean.mp3" controls loop></audio>
+
+  <video src="../../ex_012/secondTime/midia/Xadres.m4v" poster="imagens/foto-p.png" controls loop></video>
+
+ 
+</body>
+</html>

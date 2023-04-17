@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body{
+            font-family: monospace;
+            font-weight: bold;
+            text-align: center;
+            background-color: black;
+            color: red;
+        }
+
+       /*
+       vai mexer no p dentro da div(filho da div)
+       div > p
+       */
+
+
+       div > p{
+        display: none;
+       }
+
+       div:hover > p{
+        display: block;
+        color: blue;
+        font-style: italic;
+        text-decoration:  underline;
+       }
+
+       .teste{
+        width: 300px;
+        height: 300px;
+        background-color: lightcoral;
+        border: 2px solid blue;
+       }
+
+       .teste:hover{
+        background-color: blue;
+        text-align: right;
+       }
+        
+        
+    </style>
+</head>
+<body>
+
+    <h1>studying hover</h1>
+    <div>
+        Passe o mouse aqui
+        <p>texto escondido</p>
+    </div>
+
+    <div class="teste">box</div>
+   
+
+</body>
+</html>

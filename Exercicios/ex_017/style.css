@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.artigo{
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.titulos{
+
+    color: blue;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: black;
+    text-decoration: underline;
+
+}
+
+.box{
+    width: 600px;
+    height: 500px;
+    background-color: #1093cf83;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div :hover{
+
+    background-color: black;
+    height: 1000px;
+    width: 800px;
+
+}
+
+#uau{
+  color:aqua;
+  font-size: 2em;
+
+}
+p:hover{
+  color:brown;
+  font-size: 5em;
+  text-decoration: uderline;
+  font-style: italic;
+  font-weight: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botao :hover{
+    color: blue;
+
+}
