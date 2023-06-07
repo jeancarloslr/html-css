@@ -7,47 +7,81 @@
     <title>Elementos Flutuantes</title>
     <style>
 
-      
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #principal{
+
+            border: 4px solid rgba(3, 7, 224, 0.959);
+            background-color: rgba(67, 3, 102, 0.979);
+            color: yellow;
+            padding: 20px;
+        }
 
         .conteudo{
             width: 200px;
             height: 200px;
             background-color: rgb(3, 45, 195);
+            margin: 30px;
             float: left;
-            margin: 10px;
         }
 
-        .clear{
-            clear: both;     
+        .conteudoM{
+            clear: left;
         }
-
 
     </style>
 </head>
 <body>
 
-    <div class="conteudo">
+    <div id="principal">
 
-        conteudo 1
+        <div class="conteudo">
+            conteudo 1
+        </div>
+        
+        <div class="conteudo">
+            conteudo 2
+        </div>
+        
+        <div class="conteudo">
+            conteudo 3
+        </div>
+        
+        <div class="conteudo">
+            conteudo 2
+        </div>
+        
+        <div class="conteudo">
+            conteudo 3
+        </div>
+
+        <div class="conteudo">
+            conteudo 3
+        </div>
+
+
+        <div class="conteudo">
+            conteudo 3
+        </div>
+
+        <div class="conteudo">
+            conteudo 3
+        </div>
+
+        
+
+        <p class="conteudoM">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta sed, est dolores iusto ratione repellat magni quasi sequi consequatur nemo voluptate asperiores fuga laboriosam totam aliquid reiciendis animi earum obcaecati!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet numquam, velit dolores magni repellat magnam tenetur hic dicta in ducimus sapiente, ipsum eius! Praesentium, inventore! Tempora explicabo accusantium libero reiciendis.
+        </p>
+
+        
+
+     
     </div>
 
-    
-    <div class="conteudo">
-
-        conteudo 2
-    </div>
-
-    
-    <div class="conteudo">
-
-        conteudo 3
-    </div>
-
-    <p class="clear">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum mollitia eveniet, ipsum voluptas non aut odio sit vel numquam at corporis voluptates repellendus aperiam laborum amet quis ea eum corrupti!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo qui itaque, perferendis ipsa assumenda quisquam iste est, ab distinctio aperiam laborum rem magnam numquam commodi, iusto laboriosam eum molestias atque.
-    </p>
-
-  
 </body>
 </html>
