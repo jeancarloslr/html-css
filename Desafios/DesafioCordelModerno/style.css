@@ -1,0 +1,25 @@
+
+
+header{
+
+    background-color: black;
+    min-height: 200px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    
+}
+
+header > p > a{
+    text-decoration: none;
+}
+
+h1#tituloP{
+    font-size: 2.5em;
+    padding-top: 50px;
+}
+
+p#comeco{
+    font-size: 1.2em;
+}
+
