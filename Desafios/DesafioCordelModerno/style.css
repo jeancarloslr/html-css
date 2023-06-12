@@ -1,25 +1,95 @@
+@charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Poppins:wght@700&display=swap');
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+}
 
 header{
 
-    background-color: black;
-    min-height: 200px;
+    background-image: linear-gradient(to right, black, #281259);
     color: white;
     text-align: center;
-    line-height: 35px;
+    line-height: 41px;
     
 }
 
-header > p > a{
+header > h1{
+
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 2.5em;
+}
+
+header > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 50px;
+}
+
+header > a{
+    text-decoration: none;
+    color: #2d028a;
+}
+
+section{
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+
+}
+
+section.img{
+    background-color: rgba(0, 0, 0, 0.844);
+    color: white;
+}
+
+
+section.img > p{
+
+   
+    width: 350px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #2812594a;
+
+}
+
+
+
+footer {
+    background-image: linear-gradient(to right, black, #281259);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none
+}
+
+a:hover{
     text-decoration: none;
 }
 
-h1#tituloP{
-    font-size: 2.5em;
-    padding-top: 50px;
-}
-
-p#comeco{
-    font-size: 1.2em;
-}
 
