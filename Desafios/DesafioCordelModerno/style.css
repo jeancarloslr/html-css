@@ -35,7 +35,7 @@ header > h1{
     font-family: var(--fonte2);
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 3.5em;
+    font-size:  3.5em;
 }
 
 header > p{
@@ -56,7 +56,8 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 1.6em;
+    font-size: 1.4em;
+
 }
 
 section.normal{
@@ -90,7 +91,8 @@ footer {
 
 footer > p > a{
     color: white;
-    text-decoration: none
+    text-decoration: none;
+    font-family: var(--fonte2);
 }
 
 a:hover{
