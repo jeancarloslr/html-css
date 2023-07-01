@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+   
+
+}
+
+header.container{
+    height: 70vh;
+    background-image: url(img/night.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.599);
+}
+
+.cabecalho{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    
+}   
+
+.cabecalho > h1{
+    transform: translate(-50%, -60%);
+    font-variant: small-caps;
+    color: white;
+    font-size: 3em;
+}
+
+main{
+    min-height: 400px;
+}
+
+
+.text{
+    height: 250px;
+    background-color: rgb(255, 254, 254);
+}
+
+.text > h2{
+    text-align: center;
+    font-variant: small-caps;
+    padding: 10px;
+}
+
+.text > p{
+    padding: 15px;
+    text-align: justify;
+    text-indent: 1em;
+}
+
+.imagem{
+    height: 500px;
+    background-image: url(img/paisagem.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0px 3px 8px black;
+}
+
+
+.infos{
+
+    width: 200px;
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, 0.515);
+    border-radius: 10px;
+    float: left;
+    margin: 10px 250px 0px 40px;
+    padding: 10px;
+    
+}
