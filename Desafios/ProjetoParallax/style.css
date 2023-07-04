@@ -4,9 +4,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-
-   
-
 }
 
 header.container{
@@ -67,22 +64,29 @@ main{
     text-align: center;
     font-variant: small-caps;
     padding: 10px;
+    font-size: 1.8em;
 }
 
 .text > p{
     padding: 15px;
     text-align: justify;
     text-indent: 1em;
+    font-weight: 500;
 }
 
 .imagem{
     height: 500px;
-    background-image: url(img/paisagem.jpg);
-    background-position: center bottom;
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 0px 3px 8px black;
     
+}
+
+#img1{
+
+    background-image: url(img/paisagem.jpg);
+    background-position: center bottom;
+
 }
 
 
@@ -96,5 +100,39 @@ main{
     margin: 10px 100px 10px 50px;
     padding: 14px;
     color: white;
+    margin-bottom: 56px;
     
+}
+
+
+.clear{
+    clear: left;
+}
+
+
+#img2{
+    background-image: url(img/nycnight.jpg);
+    background-position: left top;
+    background-size: cover;
+}
+
+
+#img3{
+    background-image: url(img/snow.jpg);
+    background-position: center top;
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(20, 19, 19);
+}
+
+footer > p{
+
+    color: white;
+    font-variant: small-caps;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+
 }
