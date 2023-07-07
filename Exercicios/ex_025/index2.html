@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative</title>
+    <style>
+        *{
+            margin: 0;
+
+        }
+
+        body{
+            background-color: white;
+        }
+
+        header.container{
+
+            height: 30vh;
+            background-color: rgb(27, 26, 26);
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .content{
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        main{
+            margin: auto;
+            max-width: 1150px;
+            height: 70vh;
+            background-color: rgb(15, 14, 14);
+        }
+
+        h2{
+            color: white;
+            padding: 20px;
+      }
+
+      p{
+        color: white;
+        line-height: 1em;
+        margin-top: 10px;
+        padding: 10px;
+        width: 300px;
+      }
+
+      .relative{
+
+        position: relative;
+        top: -112px;
+        left: 400px;
+
+      }
+        
+        
+    </style>
+</head>
+<body>
+
+    <header class="container">
+        <div class="content">
+           <h1>Notícia interessante</h1>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        
+    </header>
+    <main>
+
+        <h2>Welcome Sir</h2>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quia repudiandae ipsum adipisci harum excepturi iure quisquam quo quaerat sequi? Natus similique recusandae odio, nulla quo modi molestiae rem alias.</p>
+
+        <p class="relative">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet obcaecati maxime sunt blanditiis? Ea quaerat, porro ullam illum fuga harum saepe animi distinctio magni a est recusandae numquam. Voluptas, molestias?</p>
+
+     
+    </main>
+
+    
+</body>
+</html>
