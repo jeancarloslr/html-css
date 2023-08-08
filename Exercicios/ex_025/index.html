@@ -16,20 +16,25 @@
         }
 
         #container{
+            position: relative;
             background-color: rgb(255, 255, 255);
             width: 800px;
             padding: 10px;
             margin: 20px auto;  
         }
 
-        h1{
-
-           
-
-        }
 
         p{
             width: 300px;
+        }
+
+        .absolute{
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
         }
 
         .relative{
@@ -47,9 +52,9 @@
 
         <p>P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum amet reiciendis laudantium asperiores eligendi? Amet repellat harum, blanditiis sapiente dolorem a id eius ad, laborum exercitationem consequatur mollitia cum voluptatibus.</p>
 
-        <p class="relative">P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, vero obcaecati amet laboriosam fugit repellat, ad velit adipisci quasi repellendus neque expedita praesentium voluptatem repudiandae unde ea soluta cum eius.</p>
+        <p>P2 Laborem ipsum dolor sit amet consectetur adipisicing elit. Sequi, vero obcaecati amet laboriosam fugit repellat, ad velit adipisci quasi repellendus neque expedita praesentium voluptatem repudiandae unde ea soluta cum eius.</p>
 
-        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloremque sed sunt rem reiciendis architecto molestiae. Reiciendis ut, laudantium quidem omnis porro nihil consequatur in. Nesciunt atque ipsa voluptates ad?</p>
+        <p class="absolute">P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloremque sed sunt rem reiciendis architecto molestiae. Reiciendis ut, laudantium quidem omnis porro nihil consequatur in. Nesciunt atque ipsa voluptates ad?</p>
 
     </div>
     
