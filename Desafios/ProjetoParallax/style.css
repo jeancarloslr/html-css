@@ -16,6 +16,18 @@ header.container{
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.599);
 }
 
+.chat{
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+    margin-right: 10px;
+}
+
+#msg{
+    width: 50%;
+    height: 50%;
+}
+
 nav{
     padding: 12px;
 }
