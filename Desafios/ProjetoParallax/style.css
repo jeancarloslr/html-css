@@ -8,7 +8,7 @@
 
 header.container{
     height: 70vh;
-    background-image: url(img/dark.jpg);
+    background-image: url(img/travel.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -30,19 +30,28 @@ header.container{
 
 nav{
     padding: 12px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    position: fixed;
+    width: 100vw;
+
 }
 
 nav > a{
 
     text-decoration: none;
-    padding-right: 15px;
-    color: white;
+    padding-right: 40px;
+    color: black;
+    font-weight: bold;
+   
 }
 
 
 nav > a:hover{
 
-    color: rgb(0, 33, 181);
+    color: rgb(51, 51, 52);
     transition-duration: 400ms;
 
 }
