@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        *{
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+
+        body{
+            background-color: rgb(33, 33, 33);
+        }
+
+        .container{
+            position: relative;
+            width: 100vw;
+            height: 95vh;
+           
+        }
+
+        form{
+            position: absolute;
+            background-color: red;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WebSite</h1>
+
+    <div class="container">
+        <form>
+            <p>Nome <input type="text" name="name" id="name"></p>
+            <p>Senha <input type="number" name="name" id="name"></p>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+</body>
+
+</html>
