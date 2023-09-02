@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
     <style>
-        *{
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-          margin: 0;
-          padding: 0;
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
 
-        body{
+        body {
             background-color: rgb(33, 33, 33);
         }
 
-        .container{
+        .container {
             position: relative;
             width: 100vw;
             height: 95vh;
-           
+
         }
 
-        form{
+        form {
             position: absolute;
             background-color: red;
             top: 50%;
@@ -37,9 +37,12 @@
     <h1>WebSite</h1>
 
     <div class="container">
-        <form>
-            <p>Nome <input type="text" name="name" id="name"></p>
-            <p>Senha <input type="number" name="name" id="name"></p>
+
+        <form autocomplete="off" action="app.js">
+            <p><label for="iname">Nome</label> 
+                <input type="text" name="name" id="iname"></p>
+            <p><label for="isenha">Senha</label> 
+                <input type="number" name="senha" id="isenha"></p>
             <input type="submit" value="Login">
         </form>
     </div>
