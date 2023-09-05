@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+}
+
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.content{
+    width: 200px;
+    height: 200px;
+    background-color: grey;   
+}
+
+
+#batman{
+    flex-grow: 4;
+    order: 2;
+}

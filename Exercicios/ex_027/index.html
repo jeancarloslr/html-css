@@ -1,44 +1,60 @@
-<!DOCTYPE html>
+X'X<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FlexBox</title>
 
     <style>
-        #conteudo {
+        
+        #container {
             background-color: grey;
             height: 600px;
             display: flex;
-
             flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-around;
-            align-items: center;
-
+            justify-content: flex-start;
+            align-items: flex-start;
         }
 
         .item {
-            
-            height: 100px;
-            width: 100px;
+            width: 200px;
             background-color: white;
             border: 1px solid red;
-
+            flex-grow: 0;
+            flex-shrink: 1;
         }
+        
+        .item1{
+           
+       /* flex-shrink: 10;*/
+          display: flex;
+          align-self: stretch;
+        }
+
+        .item2{
+           /* flex-shrink: 2;*/
+        }
+
+        .item3{
+           /* flex-shrink: 2;*/
+        }
+        .item4{
+            /*flex-shrink: 2;*/
+        }
+
+    
     </style>
 </head>
 
 <body>
 
     <h1>FlexBox na prática</h1>
-
-    <div id="conteudo">
-        <div class="item">01</div>
-        <div class="item">02</div>
-        <div class="item">03</div>
-        <div class="item">04</div>
+    <div id="container">
+        <div class="item item1">01</div>
+        <div class="item item2">02</div>
+        <div class="item item3">03</div>
+        <div class="item item4">04</div>
     </div>
 
 </body>
