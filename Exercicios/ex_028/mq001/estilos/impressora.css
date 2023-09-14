@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Estilo para impressoras*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none; /*Não será exibido na tela*/
+}
+
+article{
+    width: 100%;
+}
+article::after{  /*Depos do artigo*/
+    content: "This article was impressed on 15/09/2023";
+    font-size: 0.7em;
+    font-weight: bold;
+}
