@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Features</title>
+    <style>
+        /*estilo geral*/
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        html,
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        /**/
+
+        /*RETRATO*/
+
+        @media screen and (orientation: portrait) {
+            body {
+                background-image: url('img/cev-portrait.jpg');
+                background-position: bottom left;
+            }
+        }
+
+        /**/
+
+
+        /*PAISAGEM*/
+
+        @media screen and (orientation: landscape) {
+
+            body {
+                background-image: url('img/cev-landscape.jpg');
+            }
+        }
+
+        /**/
+    </style>
+</head>
+
+<body>
+
+    <h1>Media Features com CSS3</h1>
+
+</body>
+
+</html>
